@@ -1,0 +1,22 @@
+{
+    "name": "djzt/sentinel-laravel-auth-driver",
+    "description": "Sentinel auth driver for laravel 5.1",
+    "require": {
+        "cartalyst/sentinel": "2.0.*",
+        "laravel/laravel": "5.1.*"
+    },
+    "authors": [
+        {
+            "name": "DJZT",
+            "email": "DJZT44@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+	    "classmap": [],
+	    "files": [],
+	    "psr-4": {
+	        "Djzt\\SentinelLaravelAuthDriver\\": "src/"
+		}
+}
+}
